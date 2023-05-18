@@ -1,24 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Source+Code+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Source+Code+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Source+Code+Pro:wght@700&family=Source+Sans+Pro&display=swap');
+
 .bg-white-dark
 {
+        
     background: #F7F3F3;
 }
 .z-2
 {
     z-index : 2;
 }
+.padding-88
+{
+    padding-top: 88px;
+}
 .fixed
 {
     position : fixed ;
     top : 0;
-    padding-top : 200px !important;
     left : 0;
     background-color: white;
-    min-width: 100vw;
+    min-width: 100%;
     z-index: 900;
-    justify-content: space-around !important;
+    padding-top: 88px !important;
+    max-height: 88px;
 }
 html
 {
