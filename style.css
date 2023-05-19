@@ -129,6 +129,10 @@ body{
 {
     background: #E3E8ED;
 }
+#iconImage
+{
+    width : 20px !important;
+}
 .bg-blue
 {
     background: #E3E8ED;
@@ -174,7 +178,6 @@ body{
     }
     .logo{
         font-size: 28px;
-    }
-    
+    }    
 }
 
