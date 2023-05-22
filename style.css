@@ -128,10 +128,19 @@ body{
 .hover-box:hover
 {
     background: #E3E8ED;
+    border-radius: 15px;
 }
 #iconImage
 {
     width : 20px !important;
+}
+#work img
+{
+    width : 90%;
+}
+.border-radius
+{
+    border-radius: 15px;
 }
 .bg-blue
 {
